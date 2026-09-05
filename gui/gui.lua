@@ -1,10 +1,3 @@
---[[
-    Axiom UI Library
-    Usage:
-        local Library = loadstring(game:HttpGet("YOUR_RAW_GITHUB_URL/gui.lua"))()
-        local Window = Library:Window({ Name = "My Script", Size = UDim2.fromOffset(510, 550) })
-]]
-
 local FetchService = setmetatable({}, {
         __index = function(_, service)
             return game:GetService(service)
